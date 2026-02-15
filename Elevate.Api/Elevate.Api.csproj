@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>125a7744-0d66-4092-a639-716794f2123b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.3" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.12.34" />
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="Stripe.net" Version="50.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\*.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

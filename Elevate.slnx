@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Elevate.Api.Tests/Elevate.Api.Tests.csproj" />
+  <Project Path="Elevate.Api/Elevate.Api.csproj" />
+</Solution>
